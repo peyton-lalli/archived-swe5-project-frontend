@@ -13,7 +13,7 @@ const router = new Router({
     process.env.NODE_ENV === "development" ? "/" : "/",
   routes: [
     {
-      path: "/StudentHomeDashboard",
+      path: "/",
       component: StudentHomeDashboard,
       name: "studentHomeDashboard",
     },
