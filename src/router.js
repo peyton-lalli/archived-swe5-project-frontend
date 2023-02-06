@@ -1,10 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 
-import Login from "./views/Login";
-import HomeDashboard from "./views/HomeDashboard";
-import SectionPlanner from "./views/SectionPlanner";
-import CourseCatalog from "./views/CourseCatalog";
+import StudentHomeDashboard from "./views/StudentHomeDashboard";
 
 Vue.use(Router);
 
@@ -16,24 +13,9 @@ const router = new Router({
     process.env.NODE_ENV === "development" ? "/" : "/",
   routes: [
     {
-      path: "/",
-      component: Login,
-      name: "login",
-    },
-    {
-      path: "/HomeDashboard",
-      component: HomeDashboard,
-      name: "homeDashboard",
-    },
-    {
-      path: "/SectionPlanner",
-      component: SectionPlanner,
-      name: "sectionPlanner",
-    },
-    {
-      path: "/CourseCatalog",
-      component: CourseCatalog,
-      name: "courseCatalog",
+      path: "/StudentHomeDashboard",
+      component: StudentHomeDashboard,
+      name: "studentHomeDashboard",
     },
   ],
 });
