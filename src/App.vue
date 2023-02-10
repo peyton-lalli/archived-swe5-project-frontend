@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <v-container fluid>
+    <v-container fill-height>
       //Add MenuBar component here
 
-      <v-row>
+      <v-row class="fill-height">
         <v-col cols="3"> Static user Nav </v-col>
         <v-col cols="9">
           <v-main>
