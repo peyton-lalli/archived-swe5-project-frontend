@@ -14,3 +14,14 @@
     </v-card>
   </v-col>
 </template>
+
+<script>
+  export default {
+    name: "RepertoireItem",
+    components: {},
+    data() {
+      return {};
+    },
+    methods: {},
+  };
+</script>

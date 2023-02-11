@@ -40,3 +40,14 @@
     </v-card>
   </v-col>
 </template>
+
+<script>
+  export default {
+    name: "RecentItems",
+    components: {},
+    data() {
+      return {};
+    },
+    methods: {},
+  };
+</script>
