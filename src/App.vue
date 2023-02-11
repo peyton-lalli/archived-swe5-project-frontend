@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-container fill-height>
+    <v-container fluid fill-height>
       //Add MenuBar component here
 
       <v-row class="fill-height">

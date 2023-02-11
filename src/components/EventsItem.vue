@@ -26,3 +26,14 @@
     </v-card>
   </v-col>
 </template>
+
+<script>
+  export default {
+    name: "EventsItem",
+    components: {},
+    data() {
+      return {};
+    },
+    methods: {},
+  };
+</script>
