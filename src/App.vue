@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container fluid fill-height>
-      //Add MenuBar component here
+      <MenuBar></MenuBar>
 
       <v-row class="fill-height">
         <v-col cols="3"> Static user Nav </v-col>
@@ -16,9 +16,11 @@
 </template>
 
 <script>
-  export default {
-    name: "App",
-    components: {},
-    data: () => ({}),
-  };
+import MenuBar from "./components/MenuBar";
+export default {
+  name: "App",
+  components: {
+    MenuBar,
+  },
+};
 </script>
