@@ -5,7 +5,12 @@
         <v-card class="fill-height rightBorderCurve mainBlur">
           <v-card-text class="fill-height pl-0">
             <v-card outlined class="fill-height borderTest">
-              <v-card-text>test</v-card-text>
+              <v-card-text>
+                <v-avatar>
+                  <v-img src="../assets/Unknown.jpeg"> </v-img>
+                </v-avatar>
+                <v-card-title>JOHN DOE</v-card-title>
+              </v-card-text>
             </v-card>
           </v-card-text>
         </v-card>
