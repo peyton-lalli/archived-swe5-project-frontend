@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid> Dashboard content </v-container>
+  <v-container full-height> Dashboard content </v-container>
 </template>
 
 <script>

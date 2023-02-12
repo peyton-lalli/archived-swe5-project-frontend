@@ -10,3 +10,31 @@
   margin: 0;
   padding: 0;
 }
+
+.gradient {
+  background: linear-gradient(
+      129.28deg,
+      rgba(46, 103, 153, 0.41) 8.88%,
+      rgba(227, 238, 247, 0.41) 112.78%,
+      rgba(184, 211, 234, 0.41) 125.53%
+    ),
+    #ffffff;
+}
+
+.mainBlur {
+  box-shadow: 8px 10px 34px rgb(0 0 0 / 0.19) !important;
+}
+
+.rightBorderCurve {
+  border-radius: 0 9px 9px 0 !important;
+}
+
+.fullBorderCurve {
+  border-radius: 9px !important;
+}
+
+.borderTest {
+  border-color: #b8d3ea !important;
+  border-width: 8px 8px 8px 0 !important;
+  border-radius: 0 12px 48px 0 !important;
+}
