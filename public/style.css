@@ -21,6 +21,7 @@
     #ffffff;
 }
 
+/* This is the main blur used on all items that have it. Use this inplace of Vuetify bluring */
 .mainBlur {
   box-shadow: 8px 10px 34px rgb(0 0 0 / 0.19) !important;
 }
@@ -29,6 +30,7 @@
   border-radius: 0 9px 9px 0 !important;
 }
 
+/* Instead of this, you can use 'rounded-lg */
 .fullBorderCurve {
   border-radius: 9px !important;
 }
