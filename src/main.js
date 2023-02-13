@@ -26,6 +26,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 import { faStar as faStarSolid } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar as faCalendarSolid } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faLocationDot);
 library.add(faUserGroup);
@@ -45,6 +46,7 @@ library.add(faEnvelope);
 library.add(faUser);
 library.add(faStarRegular);
 library.add(faStarSolid);
+library.add(faCalendarSolid);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
