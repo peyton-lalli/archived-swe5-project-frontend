@@ -2,7 +2,7 @@
   <v-container fluid fill-height class="pl-0">
     <v-row class="fill-height">
       <v-col cols="12">
-        <v-card class="fill-height rounded-r-lg mainBlur">
+        <v-card class="fill-height rightBorderCurve mainBlur">
           <v-card-text class="fill-height pl-0">
             <v-card outlined class="fill-height borderTest">
               <v-card-title class="pb-0">
@@ -67,7 +67,7 @@
         </v-card>
       </v-col>
       <v-col cols="12">
-        <v-card class="fill-height gradient rounded-r-lg mainBlur">
+        <v-card class="fill-height gradient rightBorderCurve mainBlur">
           <v-card-title class="white--text font-weight-bold">
             Notifications
           </v-card-title>
