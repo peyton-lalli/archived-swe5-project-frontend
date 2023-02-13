@@ -38,3 +38,12 @@
   border-width: 8px 8px 8px 0 !important;
   border-radius: 0 12px 48px 0 !important;
 }
+
+.bottomRightBorderDeepCurve {
+  border-radius: 9px 9px 24px 9px !important;
+}
+
+.clearPadMarg {
+  padding: 0 !important;
+  margin: 0 !important;
+}
