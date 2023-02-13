@@ -67,7 +67,8 @@
         </v-card>
       </v-col>
       <v-col cols="12">
-        <v-card class="fill-height gradient rightBorderCurve mainBlur">
+        <v-card
+          class="fill-height notificationGradient rightBorderCurve mainBlur">
           <v-card-title class="white--text font-weight-bold">
             Notifications
           </v-card-title>
