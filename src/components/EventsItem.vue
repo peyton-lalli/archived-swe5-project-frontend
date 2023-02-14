@@ -1,12 +1,12 @@
 <template>
   <v-col cols="12">
-    <v-card color="blue">
+    <v-card class="eventsGradient">
       <v-col cols="12">
         <v-card>
           <v-card-title class="font-weight-bold darkGray--text py-1 px-0">
             <v-col>Recital Hearing</v-col>
             <v-col class="text-right">
-              <v-btn rounded="pill" elevation="2">View All</v-btn>
+              <v-btn rounded="pill" elevation="2">Edit</v-btn>
             </v-col>
           </v-card-title>
           <v-card-subtitle class="font-weight-bold pb-0 mb-0 darkBlue--text">

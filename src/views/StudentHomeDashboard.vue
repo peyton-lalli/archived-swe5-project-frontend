@@ -4,11 +4,14 @@
       <v-col cols="8">
         <v-row class="fill-height">
           <v-col cols="7">
-            <v-card class="fill-height mainBlur">
+            <v-card class="fill-height mainBlur rounded-lg">
               <v-row>
                 <v-col>
                   <v-card-title class="font-weight-bold darkGray--text pt-0">
                     <v-col>Repertoire</v-col>
+                    <v-col class="text-right">
+                      <v-btn rounded="pill" elevation="2">Add New</v-btn>
+                    </v-col>
                     <v-col class="text-right">
                       <v-btn rounded="pill" elevation="2">View All</v-btn>
                     </v-col>
@@ -19,7 +22,7 @@
             </v-card>
           </v-col>
           <v-col cols="5">
-            <v-card elevation="12" class="fill-height">
+            <v-card class="fill-height mainBlur rounded-lg">
               <v-card-title class="font-weight-bold darkGray--text"
                 >Quicklinks</v-card-title
               >
@@ -37,7 +40,7 @@
         </v-row>
         <v-row class="fill-height">
           <v-col cols="12">
-            <v-card elevation="12" class="fill-height">
+            <v-card class="fill-height mainBlur rounded-lg">
               <v-card-title class="font-weight-bold darkGray--text">
                 <v-col>Recent Critiques</v-col>
                 <v-col class="text-right">
@@ -50,11 +53,20 @@
         </v-row>
       </v-col>
       <v-col cols="4">
-        <v-card elevation="12" class="rounded-card fill-height">
+        <v-card class="rounded-card fill-height mainBlur rounded-lg">
           <v-card-title class="font-weight-bold darkGray--text py-2">
             <v-col>Your Events</v-col>
             <v-col class="text-right">
-              <v-btn rounded="pill" elevation="2">View All</v-btn>
+              <v-menu offset-y>
+                <template v-slot:activator="{ on, attrs }">
+                  <v-btn v-bind="attrs" v-on="on"> Upcoming </v-btn>
+                </template>
+                <v-list>
+                  <v-list-item v-for="(item, index) in items" :key="index">
+                    <v-list-item-title>{{ item.title }}</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+              </v-menu>
             </v-col>
           </v-card-title>
           <EventsItem />
@@ -76,7 +88,9 @@
       RepertoireItem,
     },
     data() {
-      return {};
+      return {
+        items: [{ title: "Upcoming" }, { title: "Past" }],
+      };
     },
     methods: {},
   };

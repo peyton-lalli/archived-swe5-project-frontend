@@ -1,6 +1,6 @@
 <template>
   <v-col cols="12">
-    <v-card>
+    <v-card class="repertoireItemGradient">
       <v-row justify="center" class="pl-5 pt-t pb-0">
         <v-col cols="2" align-self="center">
           <v-avatar>
