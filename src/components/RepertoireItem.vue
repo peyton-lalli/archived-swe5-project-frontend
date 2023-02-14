@@ -1,15 +1,21 @@
 <template>
   <v-col cols="12">
-    <v-card elevation="20">
-      <v-row align="center" justify="center" class="text-center">
-        <v-col cols="2">
-          <v-avatar><img src="../assets/Unknown.jpeg" /></v-avatar>
+    <v-card>
+      <v-row justify="center" class="pl-5 pt-t pb-0">
+        <v-col cols="2" align-self="center">
+          <v-avatar>
+            <v-img src="../assets/Unknown.jpeg"> </v-img>
+          </v-avatar>
         </v-col>
-        <v-col cols="7">
-          <v-row>This is a song</v-row>
-          <v-row>This is a person</v-row>
+        <v-col cols="8" align-self="center">
+          <v-card-title class="pt-0 font-weight-bold darkGray--text">
+            Song Title Here
+          </v-card-title>
+          <v-card-subtitle class="darkBlue--text pb-0">
+            Artist Name Here
+          </v-card-subtitle>
         </v-col>
-        <v-col cols="3"> Icons here </v-col>
+        <v-col cols="2" align-self="center">Cal </v-col>
       </v-row>
     </v-card>
   </v-col>
