@@ -15,11 +15,12 @@
 </template>
 
 <script>
-  import MenuBar from "./components/MenuBar";
-  import UserSidebar from "./components/UserSidebar.vue";
-  export default {
-    name: "App",
-    components: { MenuBar, UserSidebar },
-    data: () => ({}),
-  };
+import MenuBar from "./components/MenuBar";
+import UserSidebar from "./components/UserSidebar.vue";
+
+export default {
+  name: "App",
+  components: { MenuBar, UserSidebar },
+  data: () => ({}),
+};
 </script>
